@@ -10,17 +10,17 @@ const DrawerNavigator = () => {
   return (
     <Drawer.Navigator>
       <Drawer.Screen
-        name="Home"
+        name="Inicio"
         component={StackNavigator}
         options={{ unmountOnBlur: true }}
       />
       <Drawer.Screen
-        name="Profile"
+        name="Perfil"
         component={Profile}
         options={{ unmountOnBlur: true }}
       />
       <Drawer.Screen
-        name="Logout"
+        name="Cerrar sesión"
         component={Logout}
         options={{ unmountOnBlur: true }}
       />
